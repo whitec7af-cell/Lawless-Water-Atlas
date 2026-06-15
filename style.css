@@ -6,3 +6,14 @@ body {
 h1 {
     color: #1f4d2e;
 }
+
+.controls {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
