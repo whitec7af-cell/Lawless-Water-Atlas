@@ -17,3 +17,12 @@ button {
     margin-right: 10px;
     cursor: pointer;
 }
+
+#map {
+    margin-top: 20px;
+    height: 400px;
+    border: 2px solid #1f4d2e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
