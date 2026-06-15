@@ -1,6 +1,11 @@
-const button = document.getElementById("testButton");
+const manualButton = document.getElementById("manualButton");
+const autoButton = document.getElementById("autoButton");
 const message = document.getElementById("message");
 
-button.addEventListener("click", () => {
-    message.textContent = "Lawless Water Atlas is alive.";
+manualButton.addEventListener("click", () => {
+    message.textContent = "Manual Locate selected.";
+});
+
+autoButton.addEventListener("click", () => {
+    message.textContent = "Auto Locate selected.";
 });
