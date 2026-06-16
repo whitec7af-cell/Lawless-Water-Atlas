@@ -14,22 +14,30 @@ L.tileLayer(
     }
 ).addTo(map);
 
-const testWater = L.marker(
-    [40.903, -74.423]
+const monksville = L.marker(
+    [41.0907, -74.4305]
 ).addTo(map);
 
-testWater.bindPopup(`
+monksville.bindPopup(`
 <b>Monksville Reservoir</b>
 <br>
 County: Passaic
 <br>
-Status: Test Water
+Approx. 505 Acres
+<br>
+Status: Prototype Record
 `);
 
-manualButton.addEventListener("click", () => {
-    message.textContent = "Manual Locate selected.";
-});
+const delawareLake = L.marker(
+    [40.9736, -74.9575]
+).addTo(map);
 
-autoButton.addEventListener("click", () => {
-    message.textContent = "Auto Locate selected.";
-});
+delawareLake.bindPopup(`
+<b>Delaware Lake</b>
+<br>
+County: Warren
+<br>
+Approx. 105 Acres
+<br>
+Status: Prototype Record
+`);
